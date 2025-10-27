@@ -1,0 +1,96 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 ;
+}
+
+html {
+    line-height: 1.15;
+}
+
+.fc-blue {
+    color: #6fbaf8;
+}
+
+.bg {
+    background-color: #f7f9fc;
+    padding: 50px;
+    
+}
+
+.icons {
+    color: #6fbaf8;
+}
+
+.f-blue {
+    color: #6fbaf8;
+}
+
+.button {
+    background-color: #6fbaf8;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    
+}
+
+#location {
+    letter-spacing: -1px;
+}
+
+
+
+
+
+.work-eitem p {
+    margin-bottom: 0;
+}
+#skills-btn button {
+    border-radius: 30px;
+    max-width: 100px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+#box2 {
+    max-height: 600px;
+}
+
+.p-profile {
+    width: 178px;
+    height: 164px;
+    border-radius: 70%;
+    overflow: hidden;
+    object-fit: cover;
+}
+#big-box {
+    max-width: fit-content;
+}
+#box4 {
+    max-height:max-content;
+}
+
+
+
+
+#name-tag {
+    border-right: 2px solid lightgrey;
+}
+
+@media screen and (max-width: 768px) {
+    #name-tag {
+        border: none;
+    }
+    #big-box {
+        max-width: none;
+    }
+    #box5 {
+        display:none;
+    }
+}
